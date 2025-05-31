@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <!-- fixed navigation bar-->
+        <nav class="navbar">
+            <div class="navbarL">Hao</div>
+            <div class="navbarR">
+                <a href="#home">Home</a>
+                <a href="#bio">Bio & CV</a>
+                <a href="#research">Research</a>
+                <a href="#publications">Publications</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Home: welcome-->
+        <header id = "home" class = "header">
+            <div class="container">
+                <h1>Hello, Welcome to my homepage!</h1>
+            </div>
+        </header>
+
+        <!-- bio & CV -->
+        <section id="bio" class="container">
+            <h2>Part 1: Bio & CV </h2>
+            <p>I'm a social psychologist on a mission to create more inclusive and supportive workplaces, especially for LGBTQ+ employees.
+                My work dives deep into how identity disclosure shapes perceptions of professionalism and collaboration.</p>
+            <p>I'm a responsible team player with an analytical mindset. I enjoy learning and exploring new experiences while collaborating with others to achieve meaningful goals.</p>
+            <h3>Education</h3>
+            <ul>
+                <li>2021-2025   PHD Candidate in Social and Organizational Psychology, Utrecht University</li>
+                <li>2020-2021   Research Master in Social and Behavioral Science, Tilburg University</li>
+                <li>2018-2019   Msc in Cultural Psychology, University of Amsterdam</li>
+                <li>2014-2017   Bsc in Psychology, University of Groningen</li>
+                <li>2013-2014   Bachelor in Psychology, Shanghai University of Sports</li>
+            </ul>
+            <h3>Part 2: Work Experience</h3>
+            <ul>
+                <li>2021-2025   Researcher (PhD Candidate), Utrecht University</li>
+                <li>2018-2021   Research Assisstant (Part-time), Amsterdam Interdisciplinary Center for Emotion (AICE), University of Amsterdam</li>
+                <li>2017-2018   Psychology and Yoga Teacher (Intern), Experimental School Affiliated to Nanjing Normal University </li>
+            </ul>
+            <p><a href="https://osf.io/download/683ada9bbb870ed970ab8122/" target="_blank">Download my CV</a></p>
+        </section>
+
+        <!-- Research projects -->
+        <section id="research" class="container">
+            <h2>Part 3: Research Projects</h2>
+            <ol>
+                <li>Heteroprofessionalism at Work – <a href="https://osf.io/s2dyb/" target="_blank">View on OSF</a></li>
+                <li>Identity Disclosure, Professionalism & Cooperation – <a href="https://osf.io/95cn4/" target="_blank">View on OSF</a></li>
+                <li>Factorial Survey Study on Indentity Disclosure – <a href="https://osf.io/29xnq/" target="_blank">View on OSF</a></li>
+                <li>Enhancing DEI in Dutch Cultural Sector – <a href="https://osf.io/wbdpk/" target="_blank">View on OSF</a></li>
+            </ol>
+        </section>
+
+        <!--    Publications -->
+        <section id="publications" class="container">
+            <h2>Part 4: Publications</h2>
+            <ol>
+                <li>Zhou, C., van der Toorn, J., & Jaspers, E. (under review). The double-edged sword of “being out” at work: Its impact on perceived professionalism, morality, and cooperation intentions. Journal of Experimental Social Psychology. <a href="https://dx.doi.org/10.2139/ssrn.5039039" target="_blank">https://dx.doi.org/10.2139/ssrn.5039039</a></li>
+                <li>Zhou, C., Dijk, H. V., & Doornenbal, B. (2024). The Art of Diversity: Creating Cultural Organizations and their Personnel, Public, Program, and Partners: Die Kunst der Vielfalt: Kulturelle Organisationen und ihr Personal, Publikum, Programm und Partner. Journal of Cultural Management and Cultural Policy/Zeitschrift für Kulturmanagement und Kulturpolitik, 10(1), 181-208. <a href="https://doi.org/10.14361/zkmm-2024-0109" target="_blank">https://doi.org/10.14361/zkmm-2024-0109</a></li>
+                <li>Zhou, C., Dewaele, J. M., Ochs, C. M., & De Leersnyder, J. (2021). The role of language and cultural engagement in emotional fit with culture: an experiment comparing Chinese-English bilinguals to British and Chinese monolinguals. Affective Science, 2(2), 128-141. <a href="https://doi.org/10.1007/s42761-021-00037-x" target="_blank">https://doi.org/10.1007/s42761-021-00037-x</a></li>
+            </ol>
+        </section>
+
+        <!--    Contact -->
+        <section id="contact" class="container">
+            <h2>Part 5: Contact</h2>
+            <!-- Left column: contact info -->
+            <div class="row">
+                <div class="col-md-6">
+                    <b>Chenhao Zhou</b>
+                    <p>Room H1.44/48, Martinus J. Langeveldgebouw<br>Heidelberglaan 1, 3584 CS<br> Utrecht, the Netherlands</p>
+                    <p>Email: <a href="mailto:chenhao.zhou2@gmail.com">chenhao.zhou2@gmail.com</a></p>
+                </div>
+
+                <!-- Right column: form -->
+                <div class="col-md-6">
+                    <form action="mailto:chenhao.zhou2@gmail.com" method="POST" enctype="text/plain">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="4" required></textarea>
+
+                        <button type="submit">Send Email</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
